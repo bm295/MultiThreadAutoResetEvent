@@ -1,6 +1,0 @@
-D:\github\MultiThreadAutoResetEvent\MultiThreadAutoResetEvent\bin\Debug\MultiThreadAutoResetEvent.exe.config
-D:\github\MultiThreadAutoResetEvent\MultiThreadAutoResetEvent\bin\Debug\MultiThreadAutoResetEvent.exe
-D:\github\MultiThreadAutoResetEvent\MultiThreadAutoResetEvent\bin\Debug\MultiThreadAutoResetEvent.pdb
-D:\github\MultiThreadAutoResetEvent\MultiThreadAutoResetEvent\obj\Debug\MultiThreadAutoResetEvent.csprojResolveAssemblyReference.cache
-D:\github\MultiThreadAutoResetEvent\MultiThreadAutoResetEvent\obj\Debug\MultiThreadAutoResetEvent.exe
-D:\github\MultiThreadAutoResetEvent\MultiThreadAutoResetEvent\obj\Debug\MultiThreadAutoResetEvent.pdb
