@@ -1,25 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using Application.Interface;
 
-namespace MultiThreadAutoResetEvent
+namespace Application.Implementation
 {
-    class Program
+    internal class AutoResetEventProgram : IProgram
     {
-        static AutoResetEvent autoEvent = new AutoResetEvent(false);
+        readonly AutoResetEvent autoEvent = new(false);
 
-        static void Main(string[] args)
+        public void Run()
         {
             Task.Factory.StartNew(() => CalculateSum(50));
             Thread.Sleep(3000);
             autoEvent.Set();
-            Console.ReadLine();
         }
 
-        public static void CalculateSum(int maxNumber)
+        private void CalculateSum(int maxNumber)
         {
             int sum = 0;
             for (int i = 0; i <= maxNumber; i++)

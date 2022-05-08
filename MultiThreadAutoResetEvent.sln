@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadAutoResetEvent", "MultiThreadAutoResetEvent\MultiThreadAutoResetEvent.csproj", "{D2FED059-64EE-4B6A-9E37-1BF16747E690}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{B86A75B0-8D16-4AC1-BB73-A3509ADB5224}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D2FED059-64EE-4B6A-9E37-1BF16747E690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2FED059-64EE-4B6A-9E37-1BF16747E690}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2FED059-64EE-4B6A-9E37-1BF16747E690}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2FED059-64EE-4B6A-9E37-1BF16747E690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86A75B0-8D16-4AC1-BB73-A3509ADB5224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86A75B0-8D16-4AC1-BB73-A3509ADB5224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86A75B0-8D16-4AC1-BB73-A3509ADB5224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86A75B0-8D16-4AC1-BB73-A3509ADB5224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F6B28C8-AEC1-444D-876E-316BB0E425F4}
 	EndGlobalSection
 EndGlobal
