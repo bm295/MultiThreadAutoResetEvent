@@ -12,10 +12,12 @@ namespace Application
         {
             var container = new Container(_ => {
                 _.For<IProgram>().Use<AutoResetEventProgram>();
+                _.For<IProgram>().Use<IsAssignableFromProgram>();
             });
 
             _programs = new List<IProgram> {
-                container.GetInstance<AutoResetEventProgram>()
+                container.GetInstance<AutoResetEventProgram>(),
+                container.GetInstance<IsAssignableFromProgram>()
             };
         }
 
